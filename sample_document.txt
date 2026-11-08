@@ -1,0 +1,114 @@
+# Artificial Intelligence and Its Applications
+
+## 1. Artificial Intelligence
+
+Artificial Intelligence (AI) is a branch of computer science that focuses on developing systems capable of performing tasks that normally require human intelligence.
+
+These tasks include problem-solving, decision-making, language understanding, image recognition, and learning from experience.
+
+AI is widely used in healthcare, finance, transportation, education, and manufacturing.
+
+## 2. Machine Learning
+
+Machine Learning (ML) is a subset of Artificial Intelligence.
+
+It enables computers to learn patterns from data and make predictions or decisions without being explicitly programmed for every task.
+
+Machine Learning is generally divided into three main categories:
+
+- Supervised Learning
+- Unsupervised Learning
+- Reinforcement Learning
+
+Supervised Learning uses labeled datasets to train models. Classification and regression are common supervised learning tasks.
+
+Unsupervised Learning works with unlabeled data. Clustering is a common example.
+
+Reinforcement Learning enables an agent to learn through interactions with an environment using rewards and penalties.
+
+## 3. Deep Learning
+
+Deep Learning is a subfield of Machine Learning that uses artificial neural networks with multiple layers.
+
+Deep Learning models can automatically learn complex representations from large datasets.
+
+Common applications include image recognition, speech recognition, natural language processing, and autonomous driving.
+
+## 4. Neural Networks
+
+Artificial Neural Networks are computational models inspired by the structure of the human brain.
+
+A typical neural network consists of three types of layers:
+
+- Input Layer
+- Hidden Layers
+- Output Layer
+
+The input layer receives data. Hidden layers process information using weights and activation functions. The output layer produces the final prediction.
+
+Common activation functions include ReLU, Sigmoid, and Tanh.
+
+## 5. Natural Language Processing
+
+Natural Language Processing (NLP) is a field of Artificial Intelligence that focuses on enabling computers to understand, process, and generate human language.
+
+Common NLP applications include:
+
+- Sentiment Analysis
+- Text Classification
+- Machine Translation
+- Named Entity Recognition
+- Question Answering
+
+BERT is a Transformer-based language model that understands context by processing text bidirectionally.
+
+## 6. Retrieval-Augmented Generation
+
+Retrieval-Augmented Generation (RAG) combines information retrieval with generative language models.
+
+A RAG system retrieves relevant information from an external knowledge source and provides that information as context to a language model.
+
+The main stages of a RAG pipeline are:
+
+1. Document ingestion
+2. Text extraction
+3. Text chunking
+4. Embedding generation
+5. Vector database storage
+6. Semantic retrieval
+7. Context construction
+8. Answer generation
+
+RAG can help language models generate answers grounded in specific documents and reduce unsupported answers.
+
+## 7. Vector Embeddings
+
+Embeddings are numerical representations of text, images, or other data.
+
+Text embeddings represent semantic information as vectors in a multidimensional space.
+
+Semantically similar texts generally have vectors that are close to each other.
+
+Cosine similarity is commonly used to measure the similarity between embedding vectors.
+
+Vector databases such as PostgreSQL with pgvector can store embeddings and perform similarity searches.
+
+## 8. Model Evaluation
+
+Machine Learning models should be evaluated using appropriate metrics.
+
+For classification tasks, common metrics include:
+
+- Accuracy
+- Precision
+- Recall
+- F1-score
+
+For regression tasks, common metrics include:
+
+- Mean Absolute Error (MAE)
+- Mean Squared Error (MSE)
+- Root Mean Squared Error (RMSE)
+- R-squared (R²)
+
+The choice of evaluation metric depends on the problem and the characteristics of the dataset.
